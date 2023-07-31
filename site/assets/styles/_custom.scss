@@ -56,9 +56,7 @@
 // Scrollbar
 ::-webkit-scrollbar {
   width: 22px;
-  background: linear-gradient(90deg, var(--primary) 1px, transparent 1%) center, linear-gradient(var(--primary) 1px, transparent 1%) center, var(--secondary);
-  background-size: 2px 2px;
-  background-attachment: fixed;
+  background: var(--primary);
 }
 
 ::-webkit-scrollbar-track {
@@ -87,42 +85,42 @@
 
 ::-webkit-scrollbar-button:vertical:start {
   background-repeat: no-repeat;
-  height: 5px;
-  background-image: url("icon/scrollbar-up.svg");
+  height: 23px;
+  background-image: url("images/icon/scrollbar-up.svg");
 }
 ::-webkit-scrollbar-button:vertical:start:active {
   background-repeat: no-repeat;
-  height: 5px;
-  background-image: url("icon/scrollbar-up-active.svg");
+  height: 23px;
+  background-image: url("images/icon/scrollbar-up-active.svg");
 }
 ::-webkit-scrollbar-button:vertical:end {
-  height: 5px;
-  background-image: url("icon/scrollbar-down.svg");
+  height: 23px;
+  background-image: url("images/icon/scrollbar-down.svg");
 }
 ::-webkit-scrollbar-button:vertical:end:active {
   background-repeat: no-repeat;
-  height: 5px;
-  background-image: url("icon/scrollbar-down-active.svg");
+  height: 23px;
+  background-image: url("images/icon/scrollbar-down-active.svg");
 }
 
 ::-webkit-scrollbar-button:horizontal:start {
   background-repeat: no-repeat;
-  height: 5px;
-  background-image: url("icon/scrollbar-left.svg");
+  height: 23px;
+  background-image: url("images/icon/scrollbar-left.svg");
 }
 ::-webkit-scrollbar-button:horizontal:start:active {
   background-repeat: no-repeat;
-  height: 5px;
-  background-image: url("icon/scrollbar-left-active.svg");
+  height: 23px;
+  background-image: url("images/icon/scrollbar-left-active.svg");
 }
 ::-webkit-scrollbar-button:horizontal:end {
-  height: 5px;
-  background-image: url("icon/scrollbar-right.svg");
+  height: 23px;
+  background-image: url("images/icon/scrollbar-right.svg");
 }
 ::-webkit-scrollbar-button:horizontal:end:active {
   background-repeat: no-repeat;
-  height: 5px;
-  background-image: url("icon/scrollbar-right-active.svg");
+  height: 23px;
+  background-image: url("images/icon/scrollbar-right-active.svg");
 }
 
 
